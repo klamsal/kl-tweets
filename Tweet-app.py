@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-tweets = pd.read_csv('https://raw.githubusercontent.com/klamsal/kl-tweets/refs/heads/main/Tweets.csv')
+tweets = pd.read_csv('Tweets.csv')
 
 # Streamlit app layout and title
 st.title('Twitter Sentiment Analysis Dashboard')
